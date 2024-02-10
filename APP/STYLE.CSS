@@ -1,0 +1,41 @@
+BODY{
+    background-imAGE: URL("mob2.jpg");
+    background-size: COVER;
+}
+NAV{
+    display: flex;
+    justify-content: space-between;
+    COLOUR:rgb(12, 2, 2);
+}
+UL{
+ display: flex;
+}
+UL LI{
+    list-style: armenian;
+    margin-inline: 80PX;
+    color: blue;
+    font-size: 20PX;
+}
+.BTN button{
+    width: 100PX;
+    height: 36PX;
+    border: 4PX SOLID ;
+    color:blueviolet ;
+}
+.CONTENT{
+    margin-top: 16%;
+    color: palevioletred;
+    max-width: 620PX;
+}
+.CONTENT h1
+{
+    font-size:70PX ;
+    font-weight:600 ;
+    line-height: 85PX;
+    margin-bottom:25PX ;
+}
+.feature-img{
+    width:330px ;
+    position:absolute ;
+    right:10% ;
+}
